@@ -1,0 +1,81 @@
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-weight: 700;
+}
+
+h4
+{
+  font-size: 1.5rem;
+}
+
+body
+{
+  font-family: 'Source Sans Pro';
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.intro
+{
+
+  background-color: rgb(253, 255, 247);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+}
+p
+{
+  font-size: 15pt;
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.lead
+{
+  font-weight: 300;
+  font-size: 14pt;
+
+}
+
+li
+{
+  display: list-item;
+  text-align:left;
+}
+
+ul
+{
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+@media (min-width: 992px)
+{
+  .intro
+  {
+    padding-left: 2.25rem;
+  }
+}
