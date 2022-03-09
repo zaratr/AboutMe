@@ -47,7 +47,7 @@ function questions()
 
   let size = qArray.length;
 
-  let clientName = prompt("What is your name?");
+  let clientName = prompt("Welcome to this program where you are never wrong!  What is your name? ");
   alert(`your name is ${clientName}`);
   for(let i = 0; i < size; ++i )
   {
@@ -62,14 +62,16 @@ function questions()
     {
       //then the ans is yes!
       console.log(`your answer is yes, you are ${ansArr[i]}`);
+      alert(`your answer is yes, you are ${ansArr[i]}`);
     }
     else//I did not need an else statement here because if answer is not true then we can assume answer was false.
     {
       console.log(`you are not wrong, but you are definetly not ${ansArr[i]}`);
+      alert(`you are not wrong, but you are definetly not ${ansArr[i]}`);
     }
 
   }
-  alert(`thank you ${clientName}`);
+  alert(`thank you for visiting${clientName}! lets keep up the good spirit for our class!`);
 }
 
 
