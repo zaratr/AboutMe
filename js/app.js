@@ -10,6 +10,7 @@ code uses strict
  */
 
 
+
 function ask1(answer)//very basic check to return true
 {
   let userAns = answer.toUpperCase();
