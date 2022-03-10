@@ -192,6 +192,6 @@ function main_()
 }
 
 
-//main_();//for practicality i named the final function main
+main_();//for practicality i named the final function main
 //guessStringGame();
 //guessNumberGame();
